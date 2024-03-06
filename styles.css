@@ -1,0 +1,75 @@
+body{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(205, 248, 250);
+}
+
+header{
+    background-color: rgb(241, 252, 181);
+    color: rgb(245, 120, 162);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f523c0;
+    color: blanchedalmond;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover{
+    background-color: aquamarine;
+}
+h1, h2, p{
+    margin: 0;
+}
+
+main{
+    padding: 20px;
+    text-align: center;
+}
+
+ul {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width:30em;
+}
+
+.ul:hover{
+    background-color: aquamarine;
+}
+
+section{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.birthday-card img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.photo{
+    margin-bottom: 20px;
+}
+
+.photo img{
+    max-width: 100%;
+    height: auto;
+}
+
+.video{
+    width: 100px;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 20px;
+}
